@@ -6,7 +6,7 @@ import com.minigamepalooza.src.projectiles.ProjectileWindBlast;
 
 public class SpellWindBlast extends Spell {
 	public SpellWindBlast() {
-		super("Wind Blast", 1, 0, 2);
+		super("Wind Blast", 1, 0, 2, 3000);
 		
 		this.setDescription("Shoots a heavy blast of air towards an enemy");
 	}

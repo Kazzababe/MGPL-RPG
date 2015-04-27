@@ -2,3 +2,12 @@ name: Forgotten
 main: com.minigamepalooza.src.Forgotten
 version: 1.0
 description: Yup
+depend: [Citizens]
+
+commands:
+  respond:
+    description: Used for conversations
+    usage: /respond <time> <message>
+  next:
+    description: Used for conversations
+    usage: /next <time>
